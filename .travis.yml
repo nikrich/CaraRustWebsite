@@ -1,0 +1,16 @@
+﻿language: node_js
+node_js:
+  - "5.5.0"
+before_install:
+  - nvm install 5.5.0
+  - nvm use 5.5.0
+deploy:
+  provider: s3
+  access_key_id: $key
+  secret_access_key:
+    secure: $secret
+  bucket: "theuppermillband.com"
+  region: eu-west-1
+  skip_cleanup: true
+  acl: public_read
+  local_dir: dist
