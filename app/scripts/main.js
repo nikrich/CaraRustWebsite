@@ -2,21 +2,21 @@
  *  Menu navigation
  */
 
-$("#explore,#btnAbout").click(function () {
+$('#explore,#btnAbout').click(function () {
     $('html, body').animate({
-        scrollTop: $("#about").offset().top
+        scrollTop: $('#about').offset().top
     }, 500);
 });
 
-$("#btnWork").click(function () {
+$('#btnWork').click(function () {
     $('html, body').animate({
-        scrollTop: $("#work").offset().top
+        scrollTop: $('#work').offset().top
     }, 500);
 });
 
-$("#btnContact").click(function () {
+$('#btnContact').click(function () {
     $('html, body').animate({
-        scrollTop: $("#contact").offset().top
+        scrollTop: $('#contact').offset().top
     }, 500);
 });
 

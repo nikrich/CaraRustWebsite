@@ -9,7 +9,7 @@ deploy:
   access_key_id: $key
   secret_access_key:
     secure: $secret
-  bucket: "theuppermillband.com"
+  bucket: "cararust.com"
   region: eu-west-1
   skip_cleanup: true
   acl: public_read
