@@ -1,26 +1,28 @@
-/*
+﻿/*
  *  Menu navigation
  */
 
-$('#explore,#btnAbout').click(function () {
+$('#explore').click(function () {
     $('html, body').animate({
         scrollTop: $('#about').offset().top
     }, 500);
 });
 
-$('#btnWork').click(function () {
-    $('html, body').animate({
-        scrollTop: $('#work').offset().top
-    }, 500);
+$(document).ready(function() {
+    var video = $('#video');
+
+    if (video.length !== 0) {
+        var src = video.attr('src');
+      video.attr('src', src.replace('{0}', getParameterByName('id')));
+    }
 });
 
-$('#btnContact').click(function () {
-    $('html, body').animate({
-        scrollTop: $('#contact').offset().top
-    }, 500);
-});
-
-//$('iframe').load(function (handler) {
-//    console.log(handler);
-//    $(handler.target).contents().find('.ytp-thumbnail-overlay-image').addClass('crop');
-//});
+function getParameterByName(name, url) {
+  if (!url) url = window.location.href;
+  name = name.replace(/[\[\]]/g, "\\$&");
+  var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+    results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
