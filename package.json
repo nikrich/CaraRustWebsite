@@ -4,7 +4,7 @@
     "node": "5.5.0"
   },
   "scripts": {
-    "start": "gulp",
+    "start": "gulp serve",
     "gulp": "gulp",
     "test": "gulp"
   },
