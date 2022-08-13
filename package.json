@@ -1,49 +1,28 @@
 {
-  "private": true,
-  "engines": {
-    "node": "5.5.0"
-  },
+  "name": "vonge-jekyll-bookshop-template",
+  "description": "Vonge template for CloudCannon",
   "scripts": {
-    "start": "gulp serve",
-    "gulp": "gulp",
-    "test": "gulp"
+    "bookshop-dev": "bookshop-browser -p 6086 -b ./components",
+    "bookshop-hosted": "bookshop-browser -b ./components -o site/js/bookshop-hosted.js",
+    "bookshop-live": "bookshop-live -b ./components -o site/_cloudcannon/bookshop-live.js",
+    "jekyll": "BUNDLE_GEMFILE=site/Gemfile bundle exec jekyll serve --source site --port 6060 --trace --unpublished",
+    "start": "run-p bookshop-dev jekyll",
+    "install-jekyll": "BUNDLE_GEMFILE=site/Gemfile bundle install"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bglw/bookshop-example.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bglw/bookshop-example/issues"
+  },
+  "homepage": "https://github.com/bglw/bookshop-example#readme",
   "devDependencies": {
-    "babel-core": "^6.4.0",
-    "babel-preset-es2015": "^6.3.13",
-    "babel-register": "^6.5.2",
-    "browser-sync": "^2.2.1",
-    "del": "^1.1.1",
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^3.0.1",
-    "gulp-babel": "^6.1.1",
-    "gulp-cache": "^0.4.2",
-    "gulp-cssnano": "^2.0.0",
-    "gulp-eslint": "^2.0.0",
-    "gulp-htmlmin": "^1.3.0",
-    "gulp-if": "^2.0.0",
-    "gulp-imagemin": "^2.2.1",
-    "gulp-load-plugins": "^0.10.0",
-    "gulp-plumber": "^1.0.1",
-    "gulp-sass": "^2.0.0",
-    "gulp-size": "^1.2.1",
-    "gulp-sourcemaps": "^1.5.0",
-    "gulp-uglify": "^1.1.0",
-    "gulp-useref": "^3.0.0",
-    "main-bower-files": "^2.5.0",
-    "wiredep": "^2.2.2"
-  },
-  "eslintConfig": {
-    "env": {
-      "es6": true,
-      "node": true,
-      "browser": true
-    },
-    "rules": {
-      "quotes": [
-        2,
-        "single"
-      ]
-    }
+    "@bookshop/browser": "^2.2.2",
+    "@bookshop/jekyll-engine": "^2.2.2",
+    "@bookshop/live": "^2.2.2",
+    "npm-run-all": "^4.1.5"
   }
 }
