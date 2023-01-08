@@ -1,72 +1,67 @@
 # showcase
 showcase:
   enable: true
-  title: "Cara Rust."
-  subtitle: "Film Director"
-  description: "With a background in theatre directing, Cara has worked in the film industry as part of production and post-production for over 7 years, in Cape Town, South Africa. She began creating her own films, English Made Simple being her debut short film. The film has been selected for over nine international film festivals. Cara is currently working as a creative lead, whilst directing shorts in her own time."
-  image:
-    x: "img/showcase/showcase-2.png"
-    _2x: "img/showcase/showcase-2.png"
-  imageMobile:
-    x: "img/showcase/showcase-2.jpg"
-
-  button:
-    icon: "icon-mail-fill"
-    btnText: "Contact"
-    URL: "https://radity.com/en/contact/"
-
-  socialLinks:
-    - icon: "linkedin"
-      URL: "https://www.linkedin.com/company/radity/"
-
-    - icon: "github"
-      URL: "https://github.com/radity"
-
-    - icon: "twitter"
-      URL: "https://twitter.com/radity"
-
-    - icon: "dribbble"
-      URL: "https://dribbble.com/radity"
-
-    - icon: "behance"
-      URL: "https://www.behance.net/radity-digital"
-
-    - icon: "youtube"
-      URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
-
-    - icon: "instagram"
-      URL: "https://www.instagram.com/teamradity/"
-
-    - icon: "facebook"
-      URL: "https://www.facebook.com/raditycom/"
-
-    - icon: "codepen"
-      URL: "#"
-
-    - icon: "yelp"
-      URL: "https://www.yelp.com/"
+  video:
+    x: "img/showcase/intro-vid.mp4"
+    _2x: "img/showcase/intro-vid.mp4"
+  videoMobile:
+    x: "img/showcase/intro-vid.mp4"
 
 # about
 about:
   enable: true
   title: "Who am I?"
   content: '<p class="lead">
-    I am back, after a few days of vacationing with family. Weather was awesome, the beach was
-    full of nasty jelly-fish, yuk! All-in-all, life has been good. I hope life has been as
-    good for all of you.
+    With a background in theatre directing, Cara has worked in the film industry as part of
+    production and post-production for over 7 years, in Cape Town, South Africa.
     </p>
     <p class="lead">
-    My area of focus lies in designing web and mobile products, user research as well as
-    leading of design & front-end teams. I enjoy designing and coding the UI as much as
-    talking with users to iterate and improve the experiences that reach business goals.
+    She began creating her own films, English Made Simple being her debut short film.
+    The film has been selected for over nine international film festivals. Cara is
+    currently working as a creative lead, whilst directing shorts in her own time.
     </p>'
-  button:
-    icon: "icon-smile-fill"
-    btnText: "About Me"
-    URL: "https://www.linkedin.com/company/radity/"
+
   image:
     x: "img/who-am-i/cara-2.png"
     _2x: "img/who-am-i/cara-2.png"
+
+# gallery
+gallery:
+  enable: true
+  title: "Some of my work"
+  items:
+    - image:
+        url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        x: "img/gallery/the-date.jpg"
+      _2x: "img/gallery/the-date.jpg"
+    - image:
+        url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        x: "img/gallery/english-made-simple.jpg"
+      _2x: "img/gallery/english-made-simple.jpg"
+    - image:
+        url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        x: "img/gallery/uppermill.jpg"
+      _2x: "img/gallery/uppermill.jpg"
+    - image:
+        urls: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        x: "img/gallery/bulb-flowers.jpg"
+      _2x: "img/gallery/bulb-flowers.jpg"
+    - image:
+        urls: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        x: "img/gallery/diy.jpg"
+      _2x: "img/gallery/diy.jpg"
+    - image:
+        urls: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        x: "img/gallery/flat-fee.jpg"
+      _2x: "img/gallery/flat-fee.jpg"
+    - image:
+        urls: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        x: "img/gallery/foodies.jpg"
+      _2x: "img/gallery/foodies.jpg"
+    - image:
+        urls: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        x: "img/gallery/zoo-story.jpg"
+      _2x: "img/gallery/zoo-story.jpg"
 
 # education
 education:
@@ -111,35 +106,35 @@ experience:
 # Client & Work
 client_and_work:
   title: "Some of my work"
-  enable: true
+  enable: false
   works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+    - title: "The Date"
+      description: "Film Role: Directed & Edited"
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
+        btnText: "See More"
         URL: "#"
       image:
-        x: "img/works/radity-finance.jpg"
+        x: "img/works/the-date.png"
         _2x: "img/works/radity-finance@2x.jpg"
       is_even: true
 
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+    - title: "English Made Simple"
+      description: "Film Role: Directed & Edited"
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
+        btnText: "See More"
         URL: "#"
       image:
-        x: "img/works/swissfintech.jpg"
+        x: "img/works/ems.jpg"
         _2x: "img/works/swissfintech@2x.jpg"
       is_even: false
 
-    - title: "Robo Advisor"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+    - title: "Slowly by Upper Mill"
+      description: "Music Video Directed & Edited"
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
+        btnText: "See More"
         URL: "#"
       image:
         x: "img/works/robo-advisor.jpg"
@@ -180,16 +175,29 @@ contact:
     action: "#"
     full_name: "Full Name"
     email: "Email Address"
-    message: "Type Your Message Here"  
+    message: "Type Your Message Here"
   email:
     title: "Email"
-    email: '<a href="mailto:cara.rust.1991@gmail.com">cara.rust.1991@gmail.com</a>'
+    email: '<a href="mailto:creative.cararust@gmail.com">creative.cararust@gmail.com</a>'
   address:
     title: "Address"
     address: "Cape Town,<br />South Africa"
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
+
+socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/company/radity/"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/radity"
+
+    - icon: "youtube"
+      URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/teamradity/"
 
 # newsletter
 newsletter:

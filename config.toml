@@ -32,7 +32,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.header]]
   name = "Portfolio"
-  URL = "#portfolio"
+  URL = "#gallery"
   weight = 3
 
   [[menu.header]]
@@ -48,7 +48,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.footer]]
   name = "Portfolio"
-  URL = "#portfolio"
+  URL = "#gallery"
   weight = 3
 
   [[menu.footer]]
@@ -59,7 +59,7 @@ theme = "raditian-free-hugo-theme"
 
 [params]
 
-  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+  sections = ["showcase", "about", "gallery", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
 
   googleTagManagerID = "G-71EPVLTR7C" # Google Analytics works with Google Tag Manager
 
