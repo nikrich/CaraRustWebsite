@@ -1,25 +1,30 @@
 {{ if .Site.Data.homepage.gallery.enable }}
+
+{{/* Define a section to pull recent posts from. For Hugo 0.20 this will default
+to the section with the most number of pages. */}}
+{{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
+{{/* Create a variable with that section to use in multiple places. */}}
+{{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
+{{/* Check to see if the section is defined for ranging through it */}}
+{{ $section_count := len $section }}
+{{ if ge $section_count 1 }}
+{{/* Derive the section name */}}
+{{ $section_name := index (.Site.Params.mainSections) 0 }}
+
 <section class="section rad-animation-group pb-0" id="gallery">
     <div class="container rad-fade-down">
         <br />
         <h2>{{ .Site.Data.homepage.gallery.title }}</h2>
         <br />
         <div class="row d-flex flex-column-reverse flex-md-row">
-            {{ range .Site.Data.homepage.gallery.items }}
-            <div class="about__profile-picture col-12 col-md-6 pb-4">
-                <a href="{{ .image.url }}">
-                    <img
-                        class="lozad img-responsive"
-                        src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                        data-src="{{ .image.x | absURL }}"
-                        data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x |
-                        absURL }} 2x"
-                        alt="Profile Picture"
-                        />
-                </a>
-            </div>
+            {{ $n_posts := $.Param "recent_posts_number" | default 100 }}
+            {{/* Range through the first $n_posts items of the section */}}
+            {{ range (first $n_posts $section) }}
+            {{ .Render "summary-with-image" }}
             {{ end }}
+
         </div>
     </div>
 </section>
+{{ end }}
 {{ end }}

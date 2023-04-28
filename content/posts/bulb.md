@@ -1,8 +1,8 @@
 ---
-title: "My First Post"
-date: 2022-11-20T09:03:20-08:00
+title: "Bulb Flowers"
+date: 2022-11-17T09:03:20-08:00
 draft: true
-image: "img/gallery/the-date.jpg"
+image: "img/gallery/bulb-flowers.jpg"
 ---
 ## Introduction
 
