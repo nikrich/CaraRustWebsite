@@ -50,22 +50,12 @@ contact:
     btnText: "Send Message"
 
 socialLinks:
-    - icon: "linkedin"
-      URL: "https://www.linkedin.com/company/radity/"
+    - icon: "img/social/youtube.png"
+      URL: ""
 
-    - icon: "twitter"
-      URL: "https://twitter.com/radity"
+    - icon: "img/social/twitter.png"
+      URL: ""
 
-    - icon: "youtube"
-      URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
+    - icon: "img/social/imdb.png"
+      URL: ""
 
-    - icon: "instagram"
-      URL: "https://www.instagram.com/teamradity/"
-
-# newsletter
-newsletter:
-  enable: false
-  title: "Newsletter subscription"
-  success_message: "Successfully subscribed"
-  error_message: "Error while subscribing."
-  note: "We'll never share your email with anyone else."

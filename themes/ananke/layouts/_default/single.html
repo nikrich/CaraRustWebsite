@@ -8,11 +8,14 @@
 <link rel="stylesheet" href="http://localhost:1313/css/article.css">
 <section class="section rad-animation-group pb-0" id="gallery">
   <div class="container rad-fade-down">
+    <br />
+    <br />
     <header class="mt4 w-100">
       <h1 class="f1 athelas mt3 mb1">
         {{- .Title -}}
       </h1>
     </header>
+    <br />
     <div class="video-container">
       <iframe class="responsive-iframe" src="{{ $.Param "video" }}"
         title="YouTube
@@ -40,6 +43,8 @@
     <aside class="w-30-l mt6-l">
       {{- partial "menu-contextual.html" . -}}
     </aside>
+    <br />
+    <br />
   </div>
 </section>
 {{ end }}

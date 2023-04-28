@@ -16,7 +16,7 @@ to the section with the most number of pages. */}}
         <br />
         <h2>{{ .Site.Data.homepage.gallery.title }}</h2>
         <br />
-        <div class="row d-flex flex-column-reverse flex-md-row">
+        <div class="row d-flex flex-md-row">
             {{ $n_posts := $.Param "recent_posts_number" | default 100 }}
             {{/* Range through the first $n_posts items of the section */}}
             {{ range (first $n_posts $section) }}

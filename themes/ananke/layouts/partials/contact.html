@@ -3,21 +3,30 @@
     <div class="container">
         <div class="contact">
             <h2>{{ .Site.Data.homepage.contact.title }}</h2>
-            <div class="row pt-2">               
-                <div class="col-12 col-lg-5 contact__info">
+            <div class="row pt-2">
+                <div class="col-12 col-lg-9 contact__info">
                     <h4>{{ .Site.Data.homepage.contact.email.title }}</h4>
-                    <span>{{ .Site.Data.homepage.contact.email.email | safeHTML }}</span>
+                    <span>{{ .Site.Data.homepage.contact.email.email | safeHTML
+                        }}</span>
                     <h4>{{ .Site.Data.homepage.contact.address.title }}</h4>
-                    <span>{{ .Site.Data.homepage.contact.address.address | safeHTML }}</span>
+                    <span>{{ .Site.Data.homepage.contact.address.address |
+                        safeHTML }}</span>
                     <div class="row platform-links">
                         <div class="col-12">
-                          {{ range .Site.Data.homepage.showcase.socialLinks }}
-                          <a href="{{ .URL | absURL }}" target="_blank"><i class="icon-{{ .icon }}-line"></i></a>
-                          {{ end }}
+                            {{ range .Site.Data.homepage.showcase.socialLinks }}
+                            <a href="{{ .URL | absURL }}" target="_blank"><i
+                                    class="icon-{{ .icon }}-line"></i></a>
+                            {{ end }}
                         </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 contact__info">
+                    {{ range .Site.Data.homepage.socialLinks }}
+                    <a data-scroll class="nav-link social" href="{{ .URL }}"><img
+                            src="{{ .icon }}" /></a>
+                    {{ end }}
                 </div>
             </div>
         </div>
-    </div>
-</section>
-{{ end }}
+    </section>
+    {{ end }}
