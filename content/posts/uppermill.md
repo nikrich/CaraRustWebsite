@@ -1,7 +1,6 @@
 ---
 title: "Upper Mill"
 date: 2022-11-18T09:03:20-08:00
-draft: true
 image: "img/gallery/uppermill.jpg"
 ---
 ## Introduction

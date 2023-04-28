@@ -1,6 +1,6 @@
 baseURL = 'https://dev.cararust.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Cara Rust'
 theme = 'ananke'
 
 

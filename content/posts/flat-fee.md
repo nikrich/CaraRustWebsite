@@ -1,7 +1,6 @@
 ---
 title: "Bulb Flowers"
 date: 2022-11-15T09:03:20-08:00
-draft: true
 image: "img/gallery/flat-fee.jpg"
 ---
 ## Introduction
