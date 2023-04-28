@@ -1,3 +1,7 @@
+body {
+    background-color: #fafafa;
+}
+
 /* You can customize theme styles here */
 .rad-showcase__bg img{
     max-height: 600px;

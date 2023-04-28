@@ -2,10 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://dev.cararust.com/</loc>
+    <lastmod>2022-11-20T09:03:20-08:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://dev.cararust.com/posts/</loc>
+    <lastmod>2022-11-20T09:03:20-08:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://dev.cararust.com/posts/the-date/</loc>
+    <lastmod>2022-11-20T09:03:20-08:00</lastmod>
+  </url><url>
+    <loc>https://dev.cararust.com/posts/english-made-simple/</loc>
+    <lastmod>2022-11-19T09:03:20-08:00</lastmod>
+  </url><url>
+    <loc>https://dev.cararust.com/posts/uppermill/</loc>
+    <lastmod>2022-11-18T09:03:20-08:00</lastmod>
+  </url><url>
+    <loc>https://dev.cararust.com/posts/bulb/</loc>
+    <lastmod>2022-11-17T09:03:20-08:00</lastmod>
+  </url><url>
+    <loc>https://dev.cararust.com/posts/diy/</loc>
+    <lastmod>2022-11-16T09:03:20-08:00</lastmod>
+  </url><url>
+    <loc>https://dev.cararust.com/posts/flat-fee/</loc>
+    <lastmod>2022-11-15T09:03:20-08:00</lastmod>
+  </url><url>
+    <loc>https://dev.cararust.com/posts/foodies/</loc>
+    <lastmod>2022-11-14T09:03:20-08:00</lastmod>
+  </url><url>
+    <loc>https://dev.cararust.com/posts/zoo-story/</loc>
+    <lastmod>2022-11-14T09:03:20-08:00</lastmod>
+  </url><url>
+    <loc>https://dev.cararust.com/categories/</loc>
+  </url><url>
+    <loc>https://dev.cararust.com/tags/</loc>
   </url>
 </urlset>
