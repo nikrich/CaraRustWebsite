@@ -58,10 +58,12 @@ theme = 'ananke'
   URL = "#contact"
   weight = 4
 
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
 
 [params]
 
-  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+  sections = ["showcase", "about", "gallery", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
 
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 

@@ -10,9 +10,6 @@
 
   <body>
     {{ partial "header.html" . }}
-    {{ range .Site.Params.sections }}
-    {{ partial . $ }}
-    {{ end }}
     <main class="pb7" role="main">
       {{ block "main" . }}{{ end }}
     </main>
