@@ -29,17 +29,17 @@ theme = 'ananke'
 
   [[menu.header]]
   name = "About"
-  URL = "#about"
+  URL = "/#about"
   weight = 2
 
   [[menu.header]]
   name = "Portfolio"
-  URL = "#portfolio"
+  URL = "/#portfolio"
   weight = 3
 
   [[menu.header]]
   name = "Contact"
-  URL = "#contact"
+  URL = "/#contact"
   weight = 4
 
 

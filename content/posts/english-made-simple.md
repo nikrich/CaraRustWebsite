@@ -2,6 +2,7 @@
 title: "My First Post"
 date: 2022-11-19T09:03:20-08:00
 image: "img/gallery/english-made-simple.jpg"
+video: "https://www.youtube.com/embed/yCbX80uhLtE"
 ---
 ## Introduction
 
