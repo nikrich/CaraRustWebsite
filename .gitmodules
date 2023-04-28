@@ -1,0 +1,9 @@
+[submodule "raditian-free-hugo-theme"]
+	path = raditian-free-hugo-theme
+	url = https://github.com/radity/raditian-free-hugo-theme
+[submodule "themes/raditian-free-hugo-theme"]
+	path = themes/raditian-free-hugo-theme
+	url = https://github.com/radity/raditian-free-hugo-theme
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke

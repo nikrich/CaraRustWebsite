@@ -1,6 +1,8 @@
-baseURL = "https://cararustwebsite.pages.dev/"
-languageCode = "en-us"
-theme = "raditian-free-hugo-theme"
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'ananke'
+
 
 # Plugins
 [params.plugins]
@@ -32,7 +34,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.header]]
   name = "Portfolio"
-  URL = "#gallery"
+  URL = "#portfolio"
   weight = 3
 
   [[menu.header]]
@@ -48,7 +50,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.footer]]
   name = "Portfolio"
-  URL = "#gallery"
+  URL = "#portfolio"
   weight = 3
 
   [[menu.footer]]
@@ -59,13 +61,13 @@ theme = "raditian-free-hugo-theme"
 
 [params]
 
-  sections = ["showcase", "about", "gallery", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
 
-  googleTagManagerID = "G-71EPVLTR7C" # Google Analytics works with Google Tag Manager
+  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
   [params.logo]
-    text1 = "Cara"
-    text2 = "Rust"
+    text1 = "Andreas"
+    text2 = "Ellure"
 
   [params.footer]
       copyright = "© Raditian. All rights reserved."
