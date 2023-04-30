@@ -9,7 +9,9 @@ video: "https://www.youtube.com/embed/HakLv0hdtOI"
 Slowly is a song about time and how routine can be mundane, yet, small moments of euphoria makes it all worth it. A banging drum verse turns into an explosive chorus with melodic vocals and harmonies.
 \
 \
-Director & Editor: Cara Rust
+Directed & Edited by
+\
+Cara Rust
 \
 \
 <a href="http://theuppermillband.com/" target="_blank">Upper Mill Band Website</a>

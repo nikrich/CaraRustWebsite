@@ -11,4 +11,4 @@ This EASY Blueberry Ice Cream is made with a secret ingredient that'll *blue* yo
 Rose's Cordial South Africa
 \
 \
-Editor: Cara Rust
+Edited by Cara Rust

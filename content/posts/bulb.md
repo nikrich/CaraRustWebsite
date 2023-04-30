@@ -9,7 +9,9 @@ video: "https://www.youtube.com/embed/lT17CksLcJI"
 Zahn Rust, founder & owner of Bulb Flowers, shares her passion for blooms and why BULB is so superbly unique.
 \
 \
-Director & Editor: Cara Rust
+Directed & Edited by
+\
+Cara Rust
 \
 \
 <a href="https://bulbflowers.co.za/" target="_blank">Bulb Flowers Website</a>

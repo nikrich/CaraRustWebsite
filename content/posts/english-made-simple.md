@@ -9,14 +9,22 @@ video: "https://www.youtube.com/embed/Z_AFZZTo2Ws"
 In this absurd comedy, misfits Jake and James, entertain themselves at a pretentious party. 'English Made Simple' explores the complexities of defining yourself as an outcast.
 \
 \
-Director & Editor: Cara Rust
+Directed & Edited by
 \
-Screenplay: Cara Rust based on the play by David Ives
-\
-Production Sound Mixer: Jannik Richter
+Cara Rust
 \
 \
-CAST
+Screenplay by
+\
+Cara Rust based on the play by David Ives
+\
+\
+Production Sound Mix by
+\
+Jannik Richter
+\
+\
+With
 \
 Milan Struwig - Jack
 \
