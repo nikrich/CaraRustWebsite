@@ -1,5 +1,21 @@
+@font-face {
+    font-family: 'MrDafoe-Regular';
+    src: url('../fonts/mr-dafoe/MrDafoe-Regular.ttf') format('truetype');
+    /* You may also specify other font formats (e.g., woff, woff2) for better compatibility */
+  }
+
+@font-face {
+    font-family: 'RedHatDisplay-Regular';
+    src: url('../fonts/red-hat-display/RedHatDisplay-Regular.ttf') format('truetype');
+    /* You may also specify other font formats (e.g., woff, woff2) for better compatibility */
+  }
+
 body {
-    background-color: #fafafa;
+    background-color: #FFF8F0;
+}
+
+* {
+    font-family: RedHatDisplay-Regular;
 }
 
 /* You can customize theme styles here */
@@ -9,11 +25,11 @@ body {
 
 @media only screen and (min-width:1200px){
     .header .navbar-light .navbar-nav .nav-link{
-        color: #fff;
+        color: #FFF8F0;
     }
     
     .header.header--sticky-triggered .navbar-light .navbar-nav .nav-link{
-        color: #000;
+        color: #639FA9;
     }
 }
 
@@ -67,4 +83,19 @@ body {
 
 .social img {
     width: 45px;
+}
+
+h1, h2, h3 {
+    font-family: MrDafoe-Regular;
+    font-weight: 200;
+    color: #639FA9;
+}
+
+.header--sticky-triggered::before {
+    background-color: #FFF8F0; /* Replace 'yourNewColor' with the desired color code */
+    opacity: 1;
+  }
+  
+.section--contact .container {
+    background-color: #FFF8F0;
 }
