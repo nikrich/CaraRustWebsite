@@ -52,11 +52,12 @@ contact:
     btnText: "Send Message"
 
 socialLinks:
+
+    - icon: "img/social/instagram.png"
+      URL: "https://www.instagram.com/creative.cararust/"
+    
     - icon: "img/social/youtube.png"
       URL: "https://www.youtube.com/channel/UC56_1fQryVFQansbp5PEPBw"
-
-    - icon: "img/social/twitter.png"
-      URL: "https://twitter.com/CaraRust"
 
     - icon: "img/social/imdb.png"
       URL: "https://www.imdb.com/name/nm11149353/"
